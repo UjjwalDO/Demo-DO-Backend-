@@ -95,7 +95,7 @@ namespace JobPortal_Backend_.Controllers
                     command.Parameters.AddWithValue("@ReferencePhone", form.ReferencePhone);
                     command.Parameters.AddWithValue("@ReferenceEmail", form.ReferenceEmail);
                     command.Parameters.AddWithValue("@DocTypeId", form.DocTypeId);
-                    command.Parameters.AddWithValue("@DocExtention", form.DocExtension);
+                    command.Parameters.AddWithValue("@DocExtension", form.DocExtension);
                     command.Parameters.AddWithValue("@DocName",form.DocName);
                     command.Parameters.AddWithValue("@Signature", form.Signature);
                     
