@@ -17,13 +17,8 @@ namespace JobPortal_Backend_
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional });
             // Web API routes
-            config.MapHttpAttributeRoutes();
+       
 
-            config.Routes.MapHttpRoute(
-                name: "DefaultApi",
-                routeTemplate: "api/{controller}/{id}",
-                defaults: new { id = RouteParameter.Optional }
-            );
         }
     }
 }
