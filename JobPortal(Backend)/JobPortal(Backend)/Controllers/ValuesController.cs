@@ -35,5 +35,6 @@ namespace JobPortal_Backend_.Controllers
         public void Delete(int id)
         {
         }
+
     }
 }
